@@ -3,25 +3,41 @@
     display: grid;
     grid-template-columns: 110px 80px 80px 80px;
     grid-gap: 10px;
-    margin: 15px;  
+    margin: 5px;
+    margin-top: 20px;
 }
 
 .margen{
     width: 410px;
-    height: 120px; 
+    height: 120px;
     border: 1px solid #555;
-    margin: 10px;
+    margin-top: 200ypx;
+    margin-left: 10px
+}
+.margen1{
+    width: 410px;
+    height: 120px;
+    border: 1px solid #555;
+    margin-top:5px;
+    margin-left: 10px;
 }
 
 .contenedorEtiquetas{
     background: #e0e0e0;
+    width: 500px;
     margin: 0 0 1rem;
-    height: 65rem;
+    height: auto;
     /* display: flex; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
 
   /* align-items por defecto tiene el valor `stretch` */
     /* align-items: start; */
+}
+.pagebreak { page-break-before: always; }
+.pagebreak {
+    clear: both;
+    page-break-after: auto;
+    margin-top: 200px;
 }
